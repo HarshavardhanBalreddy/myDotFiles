@@ -213,18 +213,3 @@ autocmd VimEnter * if argc() == 1 && isdirectory(argv()[0]) && !exists("s:std_in
 augroup auto_spellcheck
   autocmd BufNewFile,BufRead *.md *.txt setlocal spell
 augroup END
-
-
-
-
-"floaterm config
-nnoremap <leader>h :FloatermNew<CR>
-" Floaterm
-let g:floaterm_autoinsert=1
-let g:floaterm_width=0.8
-let g:floaterm_height=0.8
-let g:floaterm_wintitle=0
-let g:floaterm_autoclose=1
-
-nnoremap <leader>hh :FloatermNew --wintype=popup --height=6<CR>
-

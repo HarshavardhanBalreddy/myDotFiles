@@ -1,3 +1,13 @@
+"floaterm config
+nnoremap <leader>h :FloatermNew<CR>
+" Floaterm
+let g:floaterm_autoinsert=1
+let g:floaterm_width=0.8
+let g:floaterm_height=0.8
+let g:floaterm_wintitle=0
+let g:floaterm_autoclose=1
+
+nnoremap <leader>hh :FloatermNew --wintype=popup --height=6<CR>
       "\ 'g' : [':FloatermNew lazygit'                           , 'git'],
       "\ 'd' : [':FloatermNew lazydocker'                        , 'docker'],
       "\ 'n' : [':FloatermNew node'                              , 'node'],
